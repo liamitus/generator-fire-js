@@ -1,5 +1,14 @@
 "use strict";
 
+/*
+	Fire JS
+
+	Sets up a new web project with JavaScript as the main language.
+
+	Author:	Liam Howell <lhowell@mobiquityinc.com>
+	Since:	10-22-2014
+*/
+
 // --------------------------------------------------------------------- Imports
 
 var yeoman = require("yeoman-generator");
