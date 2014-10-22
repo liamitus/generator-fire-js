@@ -34,6 +34,7 @@ module.exports = yeoman.generators.Base.extend({
 			args: JSON.stringify(configJSON)
 		};
 		var settings = {};
+		// Install grunt if requested in the config
 		if (configJSON.build_system === "grunt") {
 			this.composeWith("fire-grunt", options, settings);			
 		}
