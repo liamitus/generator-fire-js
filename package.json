@@ -1,6 +1,6 @@
 {
   "name": "generator-fire-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sets up a new Javascript project based on existing config file.",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   ],
   "dependencies": {
     "chalk": "^0.5.1",
+    "generator-fire-grunt": "^0.1.2",
     "yeoman-generator": "^0.17.7"
   },
   "author": "Liam Howell <lhowell@mobiquityinc.com>",
